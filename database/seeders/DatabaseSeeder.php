@@ -20,7 +20,6 @@ class DatabaseSeeder extends Seeder
             'name'=>'admin',
             'email'=>'admin@gmail.com',
             'isAdmin'=> true,
-            'password'=> "admin123"
         ]);
 
         User::factory(10)->create();
